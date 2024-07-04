@@ -1,6 +1,6 @@
 {
   "name": "react-native-vdebug",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "React-Native 调试工具",
   "main": "index.js",
   "scripts": {
@@ -8,20 +8,23 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/itenl/react-native-vdebug.git"
+    "url": "https://github.com/6ch/react-native-vdebug.git"
   },
   "keywords": [
     "react-native",
     "vdebug",
     "vconsole"
   ],
-  "author": "itenl",
+  "author": "6ch",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/itenl/react-native-vdebug/issues"
+    "url": "https://github.com/6ch/react-native-vdebug/issues"
+  },
+  "dependencies": {
+    "@react-native-clipboard/clipboard": "^1.14.1"
   },
   "engines": {
     "node": ">=8.11.0"
   },
-  "homepage": "https://github.com/itenl/react-native-vdebug#readme"
+  "homepage": "https://github.com/6ch/react-native-vdebug#readme"
 }

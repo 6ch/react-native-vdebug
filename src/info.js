@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import { Clipboard, ScrollView, View, Text } from 'react-native';
+import {  ScrollView, View, Text } from 'react-native';
+import Clipboard  from '@react-native-clipboard/clipboard';
 import config from '../src/config';
 
 export default class Info extends Component {
@@ -14,7 +15,7 @@ export default class Info extends Component {
   verifyPassword() {
     Clipboard.getString().then(password => {
       const date = new Date();
-      if (password == `${date.getFullYear()}${date.getMonth() + 1}${date.getDate()}|itenl`) {
+      if (password == `${date.getFullYear()}${date.getMonth() + 1}${date.getDate()}|6ch`) {
         this.setState({
           enabled: true
         });

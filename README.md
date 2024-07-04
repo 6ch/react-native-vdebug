@@ -1,5 +1,6 @@
 # react-native-vdebug
 
+## 适配RN0.72
 
 [![NPM Version](http://img.shields.io/npm/v/react-native-vdebug.svg?style=flat)](https://www.npmjs.org/package/react-native-vdebug)
 [![NPM Downloads](https://img.shields.io/npm/dm/react-native-vdebug.svg?style=flat)](https://npmcharts.com/compare/react-native-vdebug?minimal=true)

@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
-import { TextInput, Clipboard, View, Text, StyleSheet, FlatList, TouchableOpacity } from 'react-native';
+import { TextInput,  View, Text, StyleSheet, FlatList, TouchableOpacity } from 'react-native';
+
+import Clipboard  from '@react-native-clipboard/clipboard';
 import event from './event';
 import { debounce } from './tool';
 

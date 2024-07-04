@@ -67,7 +67,7 @@ class VDebug extends PureComponent {
           friction: 7
         }).start();
       },
-      onPanResponderMove: Animated.event([null, { dx: this.state.pan.x, dy: this.state.pan.y }]),
+      // onPanResponderMove: Animated.event([null, { dx: this.state.pan.x, dy: this.state.pan.y }], { useNativeDriver :true}),
       onPanResponderRelease: ({ nativeEvent }, gestureState) => {
         if (Math.abs(gestureState.dx) < 5 && Math.abs(gestureState.dy) < 5) this.togglePanel();
         setTimeout(() => {

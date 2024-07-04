@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import { TextInput, FlatList, Text, StyleSheet, View, TouchableOpacity, Clipboard, TouchableWithoutFeedback, Alert } from 'react-native';
+import { TextInput, FlatList, Text, StyleSheet, View, TouchableOpacity,  TouchableWithoutFeedback, Alert } from 'react-native';
+import Clipboard  from '@react-native-clipboard/clipboard';
 import event from './event';
 import { debounce } from './tool';
 
@@ -172,7 +173,7 @@ class Log extends Component {
       <TouchableWithoutFeedback
         onLongPress={() => {
           try {
-            Clipboard.setString(`${item.data}\r\n\r\nLight up the little star and support me.\r\nhttps://github.com/itenl/react-native-vdebug`);
+            Clipboard.setString(`${item.data}\r\n\r\nLight up the little star and support me.\r\nhttps://github.com/6ch/react-native-vdebug`);
             Alert.alert('Info', 'Copy successfully', [{ text: 'OK' }]);
           } catch (error) {}
         }}
